@@ -10,6 +10,6 @@ namespace Dating.API.Data
          Task<User> Login(string username, string password);
 
          Task<bool> UserExists(string username);
-        Task Login(object username, string password);
+        
     }
 }
